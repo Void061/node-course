@@ -841,6 +841,7 @@ Il json web token (jwt) è un metodo sicuro di codifica per l'autenticazione, vi
 1. L'header, che definisce l'algoritmo e il tipo
 2. Il payload, ovvero i dati all'interno
 3. La verify signature
+   ```
    HEADER
    {
    "alg" : "HS256",
@@ -855,3 +856,4 @@ Il json web token (jwt) è un metodo sicuro di codifica per l'autenticazione, vi
    }
    VERIFY SIGNATURE
    Di più su: https://jwt.io
+   ```
